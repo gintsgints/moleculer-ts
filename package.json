@@ -4,8 +4,8 @@
   "description": "My Moleculer microservices project",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node ./node_modules/moleculer/bin/moleculer-runner.js --hot --repl --config moleculer.config.ts services/**/*.service.ts",
-    "cli":"moleculer connect NATS",
+    "start:dev": "ts-node ./node_modules/moleculer/bin/moleculer-runner.js --hot --repl --config moleculer.config.ts services/**/*.service.ts",
+    "cli": "moleculer connect NATS",
     "start": "moleculer-runner services",
     "ci": "jest --watch",
     "test": "jest --coverage",

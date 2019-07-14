@@ -1,30 +1,60 @@
 {
-    "extends":"tslint:recommended",
     "rules": {
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
         "indent": [
-            "warn",
-            "tab",
-            { "SwitchCase": 1 }
+            true,
+            "spaces"
         ],
-        "quotes": [
-            "warn",
-            "double"
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-whitespace"
         ],
-        "semi": [
-            "error",
-            "always"
+        "no-var-keyword": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
         ],
-        "no-var": [
-            "error"
+        "semicolon": [
+            true,
+            "never",
+            "ignore-bound-class-methods"
         ],
-        "no-console": [
-            "off"
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type"
         ],
-        "no-unused-vars": [
-            "warn"
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "onespace",
+                "index-signature": "onespace",
+                "parameter": "onespace",
+                "property-declaration": "onespace",
+                "variable-declaration": "onespace"
+            }
         ],
-        "no-mixed-spaces-and-tabs": [
-            "warn"
-        ]
+        "no-internal-module": true,
+        "no-trailing-whitespace": true,
+        "no-null-keyword": true,
+        "prefer-const": true,
+        "jsdoc-format": true
     }
 }

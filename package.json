@@ -32,6 +32,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "mem": "^5.1.1",
     "moleculer": "^0.13.0",
     "moleculer-db": "^0.8.2",
     "moleculer-db-adapter-typeorm": "^0.1.3",

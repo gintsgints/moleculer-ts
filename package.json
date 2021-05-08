@@ -39,7 +39,7 @@
     "moleculer-web": "^0.8.0",
     "nats": "^1.0.1",
     "sqlite": "^3.0.3",
-    "typeorm": "^0.2.18"
+    "typeorm": "^0.2.25"
   },
   "engines": {
     "node": ">= 8.x.x"
